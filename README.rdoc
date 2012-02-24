@@ -1,0 +1,12 @@
+= pdfcrop
+python script that cuts of margins from pdf files.
+
+Originally found on http://www.mobileread.com/forums/showthread.php?t=25565
+
+== Requirements
+* python (2.x)
+* pypdf (pip-python install pypdf)
+
+== Synopsis
+
+  ./pdfcrop.py -i fullblown.pdf -o shrinked.pdf -m "left top right bottom"
